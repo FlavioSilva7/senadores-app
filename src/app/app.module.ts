@@ -10,6 +10,7 @@ import { SenadoresComponent } from './components/views/senadores/senadores.compo
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
 import { SenadorDetailComponent } from './components/views/senador-detail/senador-detail.component';
+
 @NgModule({
   declarations: [
     AppComponent,

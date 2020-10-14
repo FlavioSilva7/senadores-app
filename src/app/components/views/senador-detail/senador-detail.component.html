@@ -1,1 +1,13 @@
-<p>senador-detail works!</p>
+<div>
+  <mat-card class="detail">
+    <mat-card-header>
+      <mat-card-title>Resumo de despesas</mat-card-title>
+      <mat-card-subtitle>{{ senador.nomeSenador }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <span *ngFor="let despesa of resumo">
+        <p>{{ despesa.tipo }} - {{ despesa.valor }}</p>
+      </span>
+    </mat-card-content>
+  </mat-card>
+</div>

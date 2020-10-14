@@ -12,7 +12,12 @@ export interface Despesa {
   valor: number;
 }
 export interface DespesaSenador {
+  id?: number;
+  nomeSenador?: string;
+  despesas?: Despesa[];
+}
+export interface ResumoDespesas {
   id: number;
-  nomeSenador: string;
-  despesas: Despesa[];
+  descricao: string;
+  valor: number;
 }
