@@ -1,0 +1,14 @@
+.mainList {
+  display: flex;
+  flex-direction: column;
+}
+
+.senadorLabel {
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

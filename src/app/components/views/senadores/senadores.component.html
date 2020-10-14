@@ -1,0 +1,7 @@
+<div *ngFor="let senador of senadores" class="mainList">
+  <span class="senadorLabel">
+    <a class="link" routerLink="/senador/{{ senador.id }}"
+      >{{ senador.nomeSenador }}
+    </a>
+  </span>
+</div>
